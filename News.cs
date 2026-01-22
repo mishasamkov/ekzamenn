@@ -15,6 +15,9 @@ namespace Common
         public string Src { get; set; }
 
 
+        public News(int name, int tag, DateTime date,string src)
+        {
+           this.Name = name;
         public News(int name, int tag, DateTime date, string src)
         {
             this.Name = name;
